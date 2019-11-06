@@ -1,0 +1,11 @@
+<h1>Welcome in Wordcounting  site</h1>
+<br>
+{{ name }}
+<h2>word-Count</h2>
+
+<form action= '{% url 'count' %}'>
+<textarea name="fulltextarea" cols=40 rows=10></textarea>
+<br />
+<input type='submit' value='Count!'/>
+</form>
+
