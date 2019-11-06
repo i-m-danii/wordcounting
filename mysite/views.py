@@ -11,7 +11,7 @@ def  count(request):
 
     for word in word_list:
         if word in dict:
-            dict[word] += 1
+            dict[word] += 2
         else:
             dict[word] = 1
 
